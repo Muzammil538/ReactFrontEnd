@@ -1,0 +1,41 @@
+.videobox {
+  background-color: black;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.cardrow {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #C3C4C7;
+  padding: 20px 30px;
+}
+.cardrow .box {
+  width: 210px ;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  transform: translateY(-60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.cardrow .box .imgbox {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background-color: #1F72E4;
+  text-align: center;
+  transform: translateY(-80px);
+}
+.cardrow .box .content {
+  text-align: center;
+  color: #1FABE4;
+}

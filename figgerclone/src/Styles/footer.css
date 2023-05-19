@@ -1,0 +1,82 @@
+.imgsec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: black;
+  color: #fff;
+}
+.imgsec > div {
+  padding: 20px 40px;
+}
+.imgsec > div:nth-child(2) {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.footerlinks {
+  background-color: #0D96ED;
+  display: flex;
+  padding: 20px 80px;
+  color: #fff;
+  flex-direction: column;
+  gap: 20px;
+}
+.foothead {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 100vw; */
+  gap: 30px;
+}
+.foothead > span > i {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.footend > p > span {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.footend > p > span:nth-child(2){
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.footend > div {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footend > div > p:nth-child(2) > span {
+  padding: 0px 10px;
+  border-left: 1px solid #fff;
+  cursor: pointer;
+
+}
+.footend > div > p:nth-child(2) > span:nth-child(1){
+  border-left: none;
+}
+.footlinks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 70px;
+}
+.linkchart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.linkchart > article {
+  display: flex;
+  flex-direction: column;
+}
+.linkchart > article > span {
+  line-height: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.linkchart > article > span:hover {
+  text-decoration: underline;
+}

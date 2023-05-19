@@ -1,0 +1,107 @@
+header {
+  height: auto;
+  margin-bottom: 0;
+  z-index: 1000;
+}
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #1C4C87;
+  color: aliceblue;
+}
+.links {
+  padding: 7px;
+}
+.links > span {
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  
+}
+.links > span > a {
+  color: #fff;
+  text-decoration: none;
+}
+.links > span:hover {
+  color: #fff8;
+  transition-delay: .2s;
+}
+.morelinks > span {
+  margin: 0px 10px;
+  padding: 3px;
+  font-size: 26px;
+  cursor: pointer;
+}
+.bottomnav {
+  color: #fff;
+  transition-delay: .5s;
+
+}
+.bottomnav > div {
+  display: none;
+}
+.bottomnav > div:hover {
+  transition-delay: .5s;
+}
+.bottomnav > div.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition-delay: 1s;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  background-color: #355A87;
+}
+.bottomnav > div > span {
+  padding: 0px 10px;
+  margin: 0px 20px;
+}
+.myacc {
+  display: none;
+}
+.myacc.active {
+  position: absolute;
+  background-color: #1564C5;
+  padding: 20px;
+  right: 20px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  transition-delay: 2s;
+}
+.myacc.active::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -9px;
+  right: 19px;
+  background-color: #1564C5;
+  transform: rotate(45deg);
+
+}
+.myacc > span {
+  display: block;
+  padding: 5px;
+}
+
+span.cartcc {
+  display: block;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 100%;
+  top: 22px;
+  right: 101px;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,71 @@
+#supportbtn {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  font-size: 40px;
+  background-color: #2544A1;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+#supportbox.hidden {
+  width: 0;
+  /* opacity: 0; */
+}
+#supportbox {
+  position: fixed;
+  top: 00px;
+  right: 0;
+  color: #000;
+  width: 300px;
+  background-color: #fff;
+  height: 100vh;
+  display: inherit;
+  transition-duration: 2s;
+  
+}
+@keyframes slide {
+  from{
+    width: 0;
+  }
+  to{
+    width: 300px;
+  }
+}
+#supportbox > div:nth-child(1){
+  padding: 10px 20px;
+}
+#supportbox h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#supportbox h3 span{
+  font-size: 34px;
+  cursor: pointer;
+  color: #0008;
+}
+.imggif {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #2544A1;
+  text-align: center;
+  margin: 0px auto;
+}
+.contactbox {
+  background-color: #1457CE;
+  color: #fff;
+  height: 100vh;
+  padding: 20px;
+}
+.contactbox > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.contactbox > div > span > i {
+  font-size: 36px;
+}
