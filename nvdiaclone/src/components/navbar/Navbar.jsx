@@ -10,15 +10,15 @@ const Navbar = () => {
         </div>
         <div className="nav_links">
           <div className="links-lvl-1">
-            <span>Products</span>
-            <span>Solutions</span>
-            <span>Industries</span>
-            <span>For You</span>
+            <span className='link'>Products</span>
+            <span className='link'>Solutions</span>
+            <span className='link'>Industries</span>
+            <span className='link'>For You</span>
           </div>
           <div className="links-lvl-2">
-            <span>Shop</span>
-            <span>Drivers</span>
-            <span>Support</span>
+            <span className='link'>Shop</span>
+            <span className='link'>Drivers</span>
+            <span className='link'>Support</span>
           </div>
         </div>
         <div className="nav-icons">
