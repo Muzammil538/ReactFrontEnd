@@ -1,5 +1,5 @@
 .hero {
-  padding: 90px 32px;
+  padding: 90px 32px 0px 32px;
 }
 .text-centered {
   margin: 0px auto;
@@ -48,4 +48,19 @@
 }
 .some-btns .btn.poped {
   background-color: #80ef42;
+  border: none;
+  outline: none;
+}
+
+.earth-video{
+  /* padding: 50px; */
+  text-align: center;
+}
+.earth-video .contain {
+  width: 900px;
+  padding: 60px;
+}
+
+.earth-video .contain video {
+  width: 100%;
 }

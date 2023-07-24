@@ -1,0 +1,93 @@
+.slide-calculator {
+  background-color: #9fe870;
+  width: 100%;
+  padding: 150px 0px 150px 0px;
+}
+
+.slide-wraper {
+  display: flex;
+  padding: 0px 32px 0px 32px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contain-txt {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contain-calculator{
+  padding: 0px 12px 0px 12px;
+  width: 500px;
+  height: 600px;
+}
+.calc-wraper{
+  height: 100%;
+  width: 85%;
+  border-radius: 20px;
+}
+
+.calc-container{
+  height: 500px;
+  /* width: 100%; */
+  background-color: #ffffff;
+  border-radius: 20px;
+  z-index: 2;
+  padding: 30px;
+}
+.money-sent-field {
+  /* width: 100%; */
+  text-align: start;
+}
+.input-field-area {
+  /* width: 100%; */
+  /* border: 2px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  outline: none;
+}
+.input-field-area:hover{
+  border-width: 2px;
+}
+
+.input-field-area input[type="number"]{
+  height: 100%;
+  width: 200px;
+  font-size: 23px;
+  outline: none;
+  padding: 12px 16px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.input-field-area input[type="number"]::-webkit-inner-spin-button,
+.input-field-area input[type="number"]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-field-area button{
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: end;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 16px;
+  font-size: 20px;
+  font-weight: 550;
+}

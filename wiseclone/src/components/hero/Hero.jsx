@@ -1,5 +1,8 @@
 import React from 'react';
-import "./Hero.css"
+import "./Hero.css";
+import globePoster from "./globe.jpg";
+import globeWebm from "./globe-3d.webm";
+import globeMp from "./3d-globe.mp4"
 
 const Hero = () => {
   return (
@@ -16,7 +19,14 @@ const Hero = () => {
             <button className='btn poped'>Send money now</button>
             <button className='btn'>Open an account</button>
           </div>
-          <div className="earth-video"></div>
+          <div className="earth-video">
+            <div className="contain">
+              <video autoPlay loop muted playsInline poster={globePoster}>
+                <source src={globeWebm} type='video/webm'/>
+                <source src={globeMp} type='video/mp4'/>
+              </video>
+            </div>
+          </div>
         </div>
       </section>
     </>
